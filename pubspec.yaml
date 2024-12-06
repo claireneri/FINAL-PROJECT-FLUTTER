@@ -1,0 +1,45 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/Poppins/Poppins-Black.ttf
+        - asset: assets/Poppins/Poppins-BlackItalic.ttf
+        - asset: assets/Poppins/Poppins-Bold.ttf
+        - asset: assets/Poppins/Poppins-BoldItalic.ttf
+        - asset: assets/Poppins/Poppins-ExtraBold.ttf
+        - asset: assets/Poppins/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/Poppins/Poppins-ExtraLight.ttf
+        - asset: assets/Poppins/Poppins-ExtraLightItalic.ttf
+        - asset: assets/Poppins/Poppins-Italic.ttf
+        - asset: assets/Poppins/Poppins-Light.ttf
+        - asset: assets/Poppins/Poppins-LightItalic.ttf
+        - asset: assets/Poppins/Poppins-Medium.ttf
+        - asset: assets/Poppins/Poppins-MediumItalic.ttf
+        - asset: assets/Poppins/Poppins-Regular.ttf
+        - asset: assets/Poppins/Poppins-SemiBold.ttf
+        - asset: assets/Poppins/Poppins-SemiBoldItalic.ttf
+        - asset: assets/Poppins/Poppins-Thin.ttf
+        - asset: assets/Poppins/Poppins-ThinItalic.ttf
+
+assets:
+  - assets/images/mika.jpg
